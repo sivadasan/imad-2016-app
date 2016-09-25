@@ -20,10 +20,10 @@ app.get('/articleone', function (req, res) {
   res.send('articleone');
 });
 app.get('/articletwo', function (req, res) {
-  res.send( '/articletwo'));
+  res.send( '/articletwo');
 });
 app.get('/articlethree', function (req, res) {
-  res.sendFile( '/articlethree'));
+  res.sendFile( '/articlethree');
 });
 
 
